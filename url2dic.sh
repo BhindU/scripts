@@ -26,7 +26,6 @@ WHITE='\033[1;37m'
 # Install
 # ----------------------------------
 if [ "$1" = "install" ]; then
-	echo "Voy a installar mierda"
 	apt update
 	apt install curl -y
 	apt install wget -y
